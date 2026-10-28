@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pulumi": {
+      "command": "npx",
+      "args": ["@pulumi/mcp-server@latest", "stdio"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    }
+  }
+}
