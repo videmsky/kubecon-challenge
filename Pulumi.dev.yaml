@@ -1,2 +1,4 @@
+environment:
+  - aws/pulumi-ce
 config:
   kubecon-challenge:cargo: demo/cargo/lotctl
