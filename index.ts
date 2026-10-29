@@ -18,7 +18,7 @@ const nginxDeployment = new k8s.apps.v1.Deployment("nginx-deployment", {
 	metadata: { namespace: namespace.metadata.name },
 	spec: {
 		selector: { matchLabels: appLabels },
-		replicas: 1,
+		replicas: 3,
 		template: {
 			metadata: { labels: appLabels },
 			spec: {
